@@ -1,0 +1,83 @@
+{
+  "network-config": {
+    "org1": {
+      "name": "peerOrg1",
+      "mspid": "Org1MSP",
+      "peer1": {
+        "requests": "grpcs://10.10.30.188:7051",
+        "events": "grpcs://10.10.30.188:7053",
+        "server-hostname": "peer0.org1.example.com",
+        "tls_cacerts":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt"
+      },
+      "peer2": {
+        "requests": "grpcs://10.10.30.188:8051",
+        "events": "grpcs://10.10.30.188:8053",
+        "server-hostname": "peer1.org1.example.com",
+        "tls_cacerts":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org1.example.com/peers/peer1.org1.example.com/tls/ca.crt"
+      },
+      "admin": {
+        "key":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore",
+        "cert":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts"
+      }
+    },
+    "org2": {
+      "name": "peerOrg2",
+      "mspid": "Org2MSP",
+      "peer1": {
+        "requests": "grpcs://10.10.30.184:7051",
+        "events": "grpcs://10.10.30.184:7053",
+        "server-hostname": "peer0.org2.example.com",
+        "tls_cacerts":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org2.example.com/peers/peer0.org2.example.com/tls/ca.crt"
+      },
+      "peer2": {
+        "requests": "grpcs://10.10.30.184:8051",
+        "events": "grpcs://10.10.30.184:8053",
+        "server-hostname": "peer1.org2.example.com",
+        "tls_cacerts":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org2.example.com/peers/peer1.org2.example.com/tls/ca.crt"
+      },
+      "admin": {
+        "key":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/keystore",
+        "cert":
+          "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp/signcerts"
+      }
+    }
+  },
+  "channel": "composerchannel",
+  "orderers": [
+    {
+      "mspid": "OrdererMSP",
+      "server-hostname": "orderer0.example.com",
+      "requests": "grpcs://10.10.30.188:7050",
+      "tls_cacerts":
+        "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/ordererOrganizations/example.com/orderers/orderer0.example.com/tls/ca.crt"
+		},
+		{
+      "mspid": "OrdererMSP",
+      "server-hostname": "orderer1.example.com",
+      "requests": "grpcs://10.10.30.188:8050",
+      "tls_cacerts":
+        "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/ordererOrganizations/example.com/orderers/orderer1.example.com/tls/ca.crt"
+		},
+		{
+      "mspid": "OrdererMSP",
+      "server-hostname": "orderer2.example.com",
+      "requests": "grpcs://10.10.30.188:9050",
+      "tls_cacerts":
+        "/home/saad/fabric-1.1-kafka-multi-orderer_NEW/composer/crypto-config/ordererOrganizations/example.com/orderers/orderer2.example.com/tls/ca.crt"
+    }
+  ],
+  "keyValueStore": "/tmp/fabric-client-kvs",
+  "configtxgenToolPath": "/home/saad/fabric-binaries/bin",
+  "SYNC_START_DATE_FORMAT": "YYYY/MM/DD",
+  "syncStartDate": "2018/01/01",
+  "eventWaitTime": "30000",
+  "license": "Apache-2.0",
+  "version": "1.1"
+}

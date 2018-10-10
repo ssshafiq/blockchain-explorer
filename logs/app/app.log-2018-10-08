@@ -1,0 +1,3724 @@
+[2018-10-08 01:49:31.800] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 01:49:31.895] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 01:49:32.213] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 01:49:32.220] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 01:49:32.506] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 01:49:32.506] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 01:49:33.045] [DEBUG] Query - ===========================================
+[2018-10-08 01:49:33.045] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 01:49:33.050] [DEBUG] Query - ===========================================
+[2018-10-08 01:49:33.050] [DEBUG] Query - ===========================================
+[2018-10-08 01:49:33.050] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 01:49:33.051] [DEBUG] Query - ===========================================
+[2018-10-08 01:49:33.243] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.243] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.308] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-10-08 01:49:33.312] [DEBUG] Query - name: trade-network, version: 0.2.0-20180102082548, path: /tmp/businessnetwork11896-20285-lep3wz.b16m
+[2018-10-08 01:49:33.464] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.464] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.567] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.567] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.651] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.651] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.720] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.720] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.773] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.773] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.836] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.836] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.876] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.876] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.927] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.927] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.972] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:49:33.972] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:50:06.608] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 01:50:06.704] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 01:50:06.989] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 01:50:06.995] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 01:50:07.268] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 01:51:56.427] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:51:56.894] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:51:56.908] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 01:51:57.189] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 01:53:58.335] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:04:09.607] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:04:09.840] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:04:10.083] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:04:10.101] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 05:04:35.104] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:04:35.214] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:04:35.506] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:04:35.513] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:04:35.806] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:06:10.282] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:11:40.809] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:11:41.042] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:11:41.097] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:11:41.278] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 05:12:05.692] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:12:05.789] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:12:06.080] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:12:06.089] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:12:06.359] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:13:41.484] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:20:11.216] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:20:11.313] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:20:11.592] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:20:11.599] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:20:11.941] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:21:37.321] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:21:37.552] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:21:37.780] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:21:38.026] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 05:23:37.994] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:23:56.503] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:23:56.598] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:23:56.882] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:23:56.889] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:23:57.169] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:31:48.707] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:31:48.807] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:31:49.110] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:31:49.117] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:31:49.407] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:31:49.407] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:31:49.515] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-10-08 05:31:49.516] [DEBUG] Query - name: trade-network, version: 0.2.0-20180102082548, path: /tmp/businessnetwork11896-20285-lep3wz.b16m
+[2018-10-08 05:31:49.657] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:49.657] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:49.663] [DEBUG] Query - ===========================================
+[2018-10-08 05:31:49.664] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 05:31:49.664] [DEBUG] Query - ===========================================
+[2018-10-08 05:31:49.674] [DEBUG] Query - ===========================================
+[2018-10-08 05:31:49.674] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 05:31:49.674] [DEBUG] Query - ===========================================
+[2018-10-08 05:31:49.849] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:49.849] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.110] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.110] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.183] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.183] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.268] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.268] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.315] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.315] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.395] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.395] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.436] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.436] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.490] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.490] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.534] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:31:50.534] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:33:46.461] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:33:46.693] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:35:47.136] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:37:47.357] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:37:48.808] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 05:48:33.330] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:48:33.424] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:48:33.726] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:48:33.733] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:48:34.008] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:49:46.849] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:49:47.080] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:49:47.309] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:49:47.559] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 05:51:42.954] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:51:43.051] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 05:51:43.346] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:51:43.352] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 05:51:43.642] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:51:43.642] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 05:51:43.797] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-10-08 05:51:43.797] [DEBUG] Query - name: trade-network, version: 0.2.0-20180102082548, path: /tmp/businessnetwork11896-20285-lep3wz.b16m
+[2018-10-08 05:51:43.846] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:43.846] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:43.863] [DEBUG] Query - ===========================================
+[2018-10-08 05:51:43.863] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 05:51:43.864] [DEBUG] Query - ===========================================
+[2018-10-08 05:51:43.908] [DEBUG] Query - ===========================================
+[2018-10-08 05:51:43.908] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 05:51:43.908] [DEBUG] Query - ===========================================
+[2018-10-08 05:51:44.069] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.069] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.190] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.190] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.263] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.263] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.340] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.340] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.387] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.387] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.450] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.450] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.493] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.493] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.543] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.543] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.585] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:44.585] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:47.258] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:47.417] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:47.482] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 05:51:47.540] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 05:53:47.859] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 06:21:29.208] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 06:21:29.328] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 06:21:29.611] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 06:21:29.617] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 06:21:29.879] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 06:21:29.879] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 06:21:30.012] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-10-08 06:21:30.012] [DEBUG] Query - name: trade-network, version: 0.2.0-20180102082548, path: /tmp/businessnetwork11896-20285-lep3wz.b16m
+[2018-10-08 06:21:30.074] [DEBUG] Query - ===========================================
+[2018-10-08 06:21:30.074] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 06:21:30.079] [DEBUG] Query - ===========================================
+[2018-10-08 06:21:30.127] [DEBUG] Query - ===========================================
+[2018-10-08 06:21:30.130] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 09 12 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd cc 62 ff a7 5d 7f b6 a8 d9 ab 4c 36 6d ae a0 50 02 37 eb 88 1a 20 f3 19 19 2c 1d f9 11 ab 6b c5 6a 52 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 06:21:30.130] [DEBUG] Query - ===========================================
+[2018-10-08 06:23:59.235] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:25:30.207] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:26:32.879] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:27:30.124] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:28:30.224] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:29:30.319] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:31:30.389] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:33:18.799] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:34:17.798] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:35:16.615] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:36:16.349] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:37:16.128] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:38:16.291] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:39:16.431] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:40:16.162] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:41:16.362] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:42:16.271] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:43:17.763] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:44:19.739] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:45:17.518] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:46:16.378] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:46:47.297] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:48:19.807] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:49:19.141] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:50:19.669] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:51:19.052] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:52:19.276] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:53:19.260] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:54:19.584] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:55:19.319] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:56:19.249] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:57:20.679] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:58:19.523] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 06:59:19.473] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:00:19.181] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:01:19.539] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:02:19.530] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:03:19.592] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:04:19.496] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:05:19.410] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:06:19.142] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:07:19.210] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:08:19.096] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:09:19.442] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:10:19.526] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:11:19.602] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:12:19.139] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:13:19.744] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:14:18.722] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:15:19.659] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:16:19.893] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:17:19.340] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:18:19.264] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:19:19.751] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:20:18.758] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 07:21:18.756] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '37',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 07:21:19.208] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 23:33:41.881] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:33:41.941] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:33:42.652] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 23:33:42.673] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:35:42.383] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:39.517] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 23:36:39.608] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-08 23:36:39.904] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 23:36:39.911] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-08 23:36:40.182] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 23:36:40.182] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-08 23:36:40.322] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-10-08 23:36:40.322] [DEBUG] Query - name: trade-network, version: 0.2.0-20180102082548, path: /tmp/businessnetwork11896-20285-lep3wz.b16m
+[2018-10-08 23:36:40.421] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.421] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '53',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.431] [DEBUG] Query - ===========================================
+[2018-10-08 23:36:40.431] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 0a 12 20 5a 00 e1 54 0f 4b 31 10 90 71 88 e5 e2 63 32 86 75 58 29 bc 7e f4 f9 8b cc bf 18 66 e2 ba 5d d0 1a 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 23:36:40.432] [DEBUG] Query - ===========================================
+[2018-10-08 23:36:40.453] [DEBUG] Query - ===========================================
+[2018-10-08 23:36:40.453] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 0a 12 20 5a 00 e1 54 0f 4b 31 10 90 71 88 e5 e2 63 32 86 75 58 29 bc 7e f4 f9 8b cc bf 18 66 e2 ba 5d d0 1a 20 a6 a5 5a 0c e6 a3 88 5f 0d 35 a9 bd ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-08 23:36:40.453] [DEBUG] Query - ===========================================
+[2018-10-08 23:36:40.635] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.635] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.761] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.761] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.835] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.835] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.928] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.928] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.988] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:40.988] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.063] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.063] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.103] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.103] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.145] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.145] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.195] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.195] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.246] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:36:41.246] [ERROR] blockscanner - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '81',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:38:25.074] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '210',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:38:25.078] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:38:25.308] [ERROR] metricservice - { error: column c.channel_genesis_hash does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 121,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '236',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }
+[2018-10-08 23:38:25.470] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-08 23:40:25.521] [ERROR] metricservice - { error: column "channel_genesis_hash" does not exist
+    at Connection.parseE (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:545:11)
+    at Connection.parseMessage (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:370:19)
+    at Socket.<anonymous> (/home/saad/blockchain-explorer/node_modules/pg/lib/connection.js:113:22)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:597:20)
+  name: 'error',
+  length: 120,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '41',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3194',
+  routine: 'errorMissingColumn' }

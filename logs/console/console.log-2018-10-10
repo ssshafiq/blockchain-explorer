@@ -1,0 +1,101 @@
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+(node:24567) UnhandledPromiseRejectionWarning: TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Configuration.getDefaultOrg (/home/saad/blockchain-explorer/app/platform/fabric/Configuration.js:20:27)
+    at Platform.setChannels (/home/saad/blockchain-explorer/app/platform/fabric/Platform.js:187:53)
+    at Platform.initialize (/home/saad/blockchain-explorer/app/platform/fabric/Platform.js:151:16)
+    at Function.build (/home/saad/blockchain-explorer/app/platform/PlatformBuilder.js:11:22)
+    at platformroutes (/home/saad/blockchain-explorer/app/explorer/rest/platformroutes.js:14:36)
+    at Explorer.initialize (/home/saad/blockchain-explorer/app/explorer/Explorer.js:40:13)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+(node:24567) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:24567) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Received kill signal, shutting down gracefully
+Closed out remaining connections
+postgres://hppoc:password@127.0.0.1:5432/fabricexplorer
+
+Property config.syncStartDate set to  2018/01/01
+
+
+Please open web browser to access ：http://localhost:8080/
+
+
+pid is 24879
+
+
+Insert sql is INSERT INTO orderer  ( "requests","server_hostname" ) VALUES( $1,$2  ) RETURNING *;
+Insert sql is INSERT INTO orderer  ( "requests","server_hostname" ) VALUES( $1,$2  ) RETURNING *;
+Insert sql is INSERT INTO orderer  ( "requests","server_hostname" ) VALUES( $1,$2  ) RETURNING *;
+INSERT ID: 1
+INSERT ID: 2
+INSERT ID: 3
+Insert sql is INSERT INTO peer  ( "requests","channel_genesis_hash","server_hostname" ) VALUES( $1,$2,$3  ) RETURNING *;
+Insert sql is INSERT INTO chaincodes  ( "name","version","path","channel_genesis_hash" ) VALUES( $1,$2,$3,$4  ) RETURNING *;
+INSERT ID: 1
+INSERT ID: 10
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+Insert sql is INSERT INTO channel  ( "name","createdt","blocks","trans","channel_hash","channel_genesis_hash" ) VALUES( $1,$2,$3,$4,$5,$6  ) RETURNING *;
+INSERT ID: 1
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 3
+INSERT ID: 6
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 2
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 7
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 3
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 8
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 4
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 9
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 5
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 10
+Successfully received the block event[object Object]
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 6
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 11
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 7
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 12
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 8
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 13
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 9
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 14
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 15
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 10
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 16
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 11
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 17
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 12
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 18
+Successfully received the block event[object Object]
+Insert sql is INSERT INTO blocks  ( "blocknum","prehash","datahash","blockhash","txcount","channel_genesis_hash","createdt" ) VALUES( $1,$2,$3,$4,$5,$6,$7  ) RETURNING *;
+INSERT ID: 13
+Insert sql is INSERT INTO transactions  ( "blockid","txhash","createdt","chaincodename","chaincode_id","status","creator_msp_id","endorser_msp_id","tx_response","type","read_set","write_set","channel_genesis_hash","validation_code","envelope_signature","payload_extension","creator_nonce","chaincode_proposal_input","endorser_signature","creator_id_bytes","payload_proposal_hash","endorser_id_bytes" ) VALUES( $1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17,$18,$19,$20,$21,$22  ) RETURNING *;
+INSERT ID: 19

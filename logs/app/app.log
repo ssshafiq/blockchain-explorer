@@ -1,0 +1,458 @@
+[2018-10-10 03:31:43.604] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-10 03:31:43.682] [DEBUG] FabricConfiguration - Msp ID : Org1MSP
+[2018-10-10 03:31:44.206] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-10 03:31:44.225] [DEBUG] FabricConfiguration - Msp ID : Org2MSP
+[2018-10-10 03:31:44.755] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-10 03:31:44.755] [INFO] main - Please set logger.setLevel to DEBUG in ./app/helper.js to log the debugging.
+[2018-10-10 03:31:45.101] [DEBUG] Query - ===========================================
+[2018-10-10 03:31:45.101] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 05 12 20 ab 58 8e d0 32 4f 70 7b e8 7b de 08 28 a3 5b 94 9f 0b 1a c0 c4 cf 8e 2f 9a 46 44 61 7a 64 4d 0a 1a 20 db 21 91 b7 93 62 fb d6 e1 0a 9b c8 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-10 03:31:45.106] [DEBUG] Query - ===========================================
+[2018-10-10 03:31:45.108] [DEBUG] Query - ===========================================
+[2018-10-10 03:31:45.108] [DEBUG] Query - ByteBuffer {
+  buffer: <Buffer 08 05 12 20 ab 58 8e d0 32 4f 70 7b e8 7b de 08 28 a3 5b 94 9f 0b 1a c0 c4 cf 8e 2f 9a 46 44 61 7a 64 4d 0a 1a 20 db 21 91 b7 93 62 fb d6 e1 0a 9b c8 ... >,
+  offset: 4,
+  markedOffset: -1,
+  limit: 36,
+  littleEndian: true,
+  noAssert: false }
+[2018-10-10 03:31:45.108] [DEBUG] Query - ===========================================
+[2018-10-10 03:31:45.119] [DEBUG] Query - <<< Instantiated Chaincodes >>>
+[2018-10-10 03:31:45.120] [DEBUG] Query - name: med-net, version: 2.2.26, path: /tmp/businessnetwork118910-23876-19zm8jc.cwpw
+[2018-10-10 03:34:08.180] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:35:35.605] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:36:43.403] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:37:22.891] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:38:48.780] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:39:47.039] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:40:48.074] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:41:47.629] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:42:48.815] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:43:48.373] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:44:47.738] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:45:48.391] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:46:48.831] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:47:47.405] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:48:47.471] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:49:49.127] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:50:48.352] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:51:47.740] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:52:48.665] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:53:49.787] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:54:30.691] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:55:58.502] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:56:54.366] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:57:54.490] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:58:54.413] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 03:59:31.636] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:00:54.756] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:01:54.874] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:02:54.680] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:03:54.809] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:04:54.425] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:05:54.936] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:06:54.918] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:07:54.840] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:08:54.332] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:09:54.093] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:11:01.764] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:12:01.569] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:12:55.125] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:13:57.859] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:14:54.236] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:15:54.366] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:16:54.221] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:17:54.238] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:18:54.141] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:19:54.274] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:20:54.893] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:21:54.560] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:22:54.718] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:23:56.052] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:24:54.182] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:25:54.751] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:26:54.721] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:27:54.378] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:28:54.372] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:29:54.468] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:30:54.999] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:31:54.366] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:32:54.577] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:33:54.878] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:34:54.337] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:35:54.555] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:36:54.502] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:37:54.449] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:38:54.137] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:39:54.552] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:40:54.676] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:41:54.579] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:42:54.375] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:43:54.417] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:44:54.529] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:45:54.510] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:46:54.232] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:47:54.546] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:48:55.214] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:49:54.259] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:50:54.620] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:51:54.213] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:52:54.477] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:53:54.227] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:54:54.480] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:55:54.932] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:56:55.559] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:57:54.721] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:58:54.217] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 04:59:54.136] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:00:54.604] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:01:54.537] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:02:54.654] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:03:54.650] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:04:54.426] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:05:54.675] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:06:54.238] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:07:54.529] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:08:54.454] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:09:54.188] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:10:54.317] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:11:54.352] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:12:54.129] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:13:54.544] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:14:54.299] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:15:54.666] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:16:54.358] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:17:54.110] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:18:55.305] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:19:53.907] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:20:53.992] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
+[2018-10-10 05:21:54.215] [DEBUG] platform - GetStatus All! [ { status: 'RUNNING', server_hostname: 'peer0.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org1.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer0.org2.example.com' },
+  { status: 'RUNNING', server_hostname: 'peer1.org2.example.com' } ]
